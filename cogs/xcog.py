@@ -15,11 +15,11 @@ class Mycog:
         self.bot = bot
 
     @commands.command()
-    async def mycom(self):
+    async def xander(self):
         """This does stuff!"""
 
         #Your code will go here
-        await self.bot.say("I can do stuff!")
+        await self.bot.say("<:xhearteyes:283866074980810752> <:xandercool:235634201678839809> <:xandertilted:235633458779521024> <:xander:235610087190822913> <:hueh:235633477179932672> <:LUL:235611940590845952> <:xhearteyes:283866074980810752>")
 
     @commands.command(pass_context=True)
     async def echo(self, ctx, message):
