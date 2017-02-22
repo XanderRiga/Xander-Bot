@@ -19,7 +19,7 @@ class Mycog:
 
         author = ctx.message.author
         myString = ctx.message.content
-        await self.bot.say(":grinning: {} :grinning: {}".format(myString[6:], author.mention))
+        await self.bot.say("{} {}".format(author.mention, myString[6:]))
 
 def setup(bot):
     bot.add_cog(Mycog(bot))

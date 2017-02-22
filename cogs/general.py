@@ -61,7 +61,7 @@ class General:
             await self.bot.say(choice(choices))
 
     @commands.command(pass_context=True)
-    async def roll(self, ctx, number : int = 100):
+    async def roll(self, ctx, number : int = 20):
         """Rolls random number (between 1 and user choice)
 
         Defaults to 100.
